@@ -7,7 +7,8 @@
 //
 
 #import "MainScene.h"
+#import "Grid.h"
 
-@implementation MainScene
-
-@end
+@implementation MainScene {
+}
+   @end

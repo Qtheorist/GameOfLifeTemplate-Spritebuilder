@@ -255,10 +255,6 @@
 		B7EE69E31819E75700B983FE /* CCLayoutBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE69DF1819E75700B983FE /* CCLayoutBox.m */; };
 		B7EE6A1E181AE34600B983FE /* CCSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EE6A1C181AE34600B983FE /* CCSlider.h */; };
 		B7EE6A1F181AE34600B983FE /* CCSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE6A1D181AE34600B983FE /* CCSlider.m */; };
-		C35156D6196598B700DAF095 /* Grid.h in Headers */ = {isa = PBXBuildFile; fileRef = C35156D4196598B700DAF095 /* Grid.h */; };
-		C35156D7196598B700DAF095 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = C35156D5196598B700DAF095 /* Grid.m */; };
-		C35156DA196598E000DAF095 /* Creature.h in Headers */ = {isa = PBXBuildFile; fileRef = C35156D8196598DF00DAF095 /* Creature.h */; };
-		C35156DB196598E000DAF095 /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = C35156D9196598E000DAF095 /* Creature.m */; };
 		D272032418FC89A000B100FF /* CCEffect_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D272031718FC89A000B100FF /* CCEffect_Private.h */; };
 		D272032518FC89A000B100FF /* CCEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = D272031818FC89A000B100FF /* CCEffect.h */; };
 		D272032618FC89A000B100FF /* CCEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = D272031918FC89A000B100FF /* CCEffect.m */; };
@@ -590,10 +586,6 @@
 		B7EE69DF1819E75700B983FE /* CCLayoutBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLayoutBox.m; sourceTree = "<group>"; };
 		B7EE6A1C181AE34600B983FE /* CCSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSlider.h; path = "cocos2d-ui/CCSlider.h"; sourceTree = "<group>"; };
 		B7EE6A1D181AE34600B983FE /* CCSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSlider.m; path = "cocos2d-ui/CCSlider.m"; sourceTree = "<group>"; };
-		C35156D4196598B700DAF095 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
-		C35156D5196598B700DAF095 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
-		C35156D8196598DF00DAF095 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
-		C35156D9196598E000DAF095 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
 		D272031718FC89A000B100FF /* CCEffect_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEffect_Private.h; sourceTree = "<group>"; };
 		D272031818FC89A000B100FF /* CCEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEffect.h; sourceTree = "<group>"; };
 		D272031918FC89A000B100FF /* CCEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEffect.m; sourceTree = "<group>"; };
@@ -687,10 +679,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C35156D4196598B700DAF095 /* Grid.h */,
-				C35156D5196598B700DAF095 /* Grid.m */,
-				C35156D8196598DF00DAF095 /* Creature.h */,
-				C35156D9196598E000DAF095 /* Creature.m */,
 				A07EC9B2141A8D32008C1F12 /* README.md */,
 				501A7CAC0EBC97BA005BC158 /* AUTHORS */,
 				508A4A2310B47A46004B9CC3 /* RELEASE_NOTES */,
@@ -1388,7 +1376,6 @@
 				50FBB2DA117613F500150761 /* CCActionTween.h in Headers */,
 				B7705FD41831A07B0043CC67 /* OALUtilityActions.h in Headers */,
 				50D898F31192CB7500458C29 /* uthash.h in Headers */,
-				C35156D6196598B700DAF095 /* Grid.h in Headers */,
 				508EAC311193F8B0007F058D /* utlist.h in Headers */,
 				B7705FDE1831A07B0043CC67 /* ObjectAL.h in Headers */,
 				E0C3655B11F0AE9B001C08F9 /* CCSpriteBatchNode.h in Headers */,
@@ -1438,7 +1425,6 @@
 				B798D14D18204BEC00E7BFCD /* CCParticleSystemBase_Private.h in Headers */,
 				B7705FFB1831A07B0043CC67 /* IOSVersion.h in Headers */,
 				A0A7A53C1514F27D00C8BD16 /* CCActionCatmullRom.h in Headers */,
-				C35156DA196598E000DAF095 /* Creature.h in Headers */,
 				B77060091831A07B0043CC67 /* SynthesizeSingleton.h in Headers */,
 				A039EBFF155C686B0061EE37 /* CCNode+Debug.h in Headers */,
 				A0DA0BC315BCDCA200E80A92 /* CCDrawNode.h in Headers */,
@@ -1554,7 +1540,6 @@
 				5018F26C0DFDEAFF00C013A5 /* CCNode.m in Sources */,
 				5018F26E0DFDEAFF00C013A5 /* CCDirector.m in Sources */,
 				5018F2700DFDEAFF00C013A5 /* CCActionInstant.m in Sources */,
-				C35156D7196598B700DAF095 /* Grid.m in Sources */,
 				5018F2720DFDEAFF00C013A5 /* CCActionInterval.m in Sources */,
 				B77060071831A07B0043CC67 /* OALTools.m in Sources */,
 				D33803EA180331A90072D8FE /* CCPhysicsJoint.m in Sources */,
@@ -1611,7 +1596,6 @@
 				D37D197818B6665700B23FDE /* CCTiledMapLayer.m in Sources */,
 				D272032618FC89A000B100FF /* CCEffect.m in Sources */,
 				B7705FF51831A07B0043CC67 /* OpenALManager.m in Sources */,
-				C35156DB196598E000DAF095 /* Creature.m in Sources */,
 				50FBB2DB117613F500150761 /* CCActionTween.m in Sources */,
 				B7705FD71831A07B0043CC67 /* OALAudioTrack.m in Sources */,
 				D37D197B18B6666E00B23FDE /* CCSpriteBatchNode.m in Sources */,
