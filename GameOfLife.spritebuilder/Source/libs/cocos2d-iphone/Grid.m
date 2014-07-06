@@ -188,8 +188,8 @@ int column = 0;
                             
                             currentCreature.isAlive = NO;
                         }                    }
-                }_totalAlive = numAlive;
-            }
+                }
+            }_totalAlive = numAlive;
         }
     }
   
