@@ -155,7 +155,7 @@ int column = 0;
 - (void)updateCreatures
 {
   
-    {
+    {int numAlive = 0;
         // iterate through the rows
         // note that NSArray has a method 'count' that will return the number of elements in the array
         for (int i = 0; i < [_gridArray count]; i++)
@@ -166,8 +166,8 @@ int column = 0;
                 // access the creature in the cell that corresponds to the current row/column
                 Creature *currentCreature = _gridArray[i][j];
                 
-                
-                // now examine every cell around the current one
+              
+            // now examine every cell around the current one
                 
                 // go through the row on top of the current cell, the row the cell is in, and the row past the current cell
                 for (int x = (i-1); x <= (i+1); x++)
@@ -178,21 +178,21 @@ int column = 0;
                         // check that the cell we're checking isn't off the screen
                         BOOL isIndexValid;
                         isIndexValid = [self isIndexValidForX:x andY:y];
-                        
+                    
                         // skip over all cells that are off screen AND the cell that contains the creature we are currently updating
                         // remember that every creature has a 'livingNeighbors' property that we created earlier
                         if (currentCreature.livingNeighbors == 3){
                             currentCreature.isAlive = YES;
-                            
-                        }else if (currentCreature.livingNeighbors == 1 || currentCreature.livingNeighbors >=4) {
+                            numAlive ++;
+                        }else if (currentCreature.livingNeighbors <= 1 || currentCreature.livingNeighbors >=4) {
                             
                             currentCreature.isAlive = NO;
                         }                    }
-                }
+                }_totalAlive = numAlive;
             }
         }
     }
   
-    
+
 }
 @end
