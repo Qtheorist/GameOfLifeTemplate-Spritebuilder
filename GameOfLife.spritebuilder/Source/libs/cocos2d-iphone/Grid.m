@@ -153,7 +153,7 @@ int column = 0;
 }
 
 - (void)updateCreatures
-{int numAlive = 0;
+{
   
     {
         // iterate through the rows
@@ -183,7 +183,7 @@ int column = 0;
                         // remember that every creature has a 'livingNeighbors' property that we created earlier
                         if (currentCreature.livingNeighbors == 3){
                             currentCreature.isAlive = YES;
-                            numAlive ++;
+                        
                         }else if (currentCreature.livingNeighbors <= 1 || currentCreature.livingNeighbors >=4) {
                             
                             currentCreature.isAlive = NO;
